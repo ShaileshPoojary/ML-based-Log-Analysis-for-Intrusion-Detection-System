@@ -4,19 +4,17 @@ import numpy as np
 import pandas as pd
 import altair as alt
 
-# Load Models and Utilities
-# MODEL_DIR = "C:/Users/shail/Desktop/Log_Analysis"
 
 MODELS = {
-    "Random Forest": joblib.load("C:/Users/shail/Desktop/Log_Analysis/random_forest.pkl"),
-    "Logistic Regression": joblib.load("C:/Users/shail/Desktop/Log_Analysis/logistic_regression.pkl"),
-    "XGBoost": joblib.load("C:/Users/shail/Desktop/Log_Analysis/xgboost.pkl"),
-    "Gradient Boosting": joblib.load("C:/Users/shail/Desktop/Log_Analysis/gradient_boosting.pkl"),
-    "KNN": joblib.load("C:/Users/shail/Desktop/Log_Analysis/knn.pkl")
+    "Random Forest": joblib.load("Models/random_forest.pkl"),
+    "Logistic Regression": joblib.load("Models/logistic_regression.pkl"),
+    "XGBoost": joblib.load("Models/xgboost.pkl"),
+    "Gradient Boosting": joblib.load("Models/gradient_boosting.pkl"),
+    "KNN": joblib.load("Models/knn.pkl")
 }
 
-vectorizer = joblib.load("C:/Users/shail/Desktop/Log_Analysis/vectorizer.pkl")
-call_to_int = joblib.load("C:/Users/shail/Desktop/Log_Analysis/call_to_int.pkl")
+vectorizer = joblib.load("vectorizer.pkl")
+call_to_int = joblib.load("call_to_int.pkl")
 
 
 # Helper: Read and encode .GHC

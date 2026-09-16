@@ -1,0 +1,7 @@
+streamlit
+joblib
+numpy
+pandas
+altair
+scikit-learn
+xgboost

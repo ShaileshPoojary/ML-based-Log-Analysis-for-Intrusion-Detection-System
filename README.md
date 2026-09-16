@@ -42,7 +42,6 @@ The project includes:
 - XGBoost
 - Gradient Boosting
 - K-Nearest Neighbors (KNN)
-- Support Vector Machine (SVM)
 
 ## 🔄 Workflow
 
@@ -91,7 +90,7 @@ The results are compared to understand the performance of different algorithms f
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone <THIS_GITHUB_REPOSITORY_URL>
 cd Log_Analysis
 ```
 

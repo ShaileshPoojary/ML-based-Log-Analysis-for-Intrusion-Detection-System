@@ -90,7 +90,7 @@ The results are compared to understand the performance of different algorithms f
 ### 1. Clone the repository
 
 ```bash
-git clone <THIS_GITHUB_REPOSITORY_URL>
+git clone https://github.com/ShaileshPoojary/ML-based-Log-Analysis-for-Intrusion-Detection-System.git
 cd Log_Analysis
 ```
 
